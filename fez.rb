@@ -1,4 +1,4 @@
-class Guardian < Formula
+class Fez < Formula
   desc "fez is a Kemal app builder"
   homepage "http://github.com/jwoertink/fez"
   url "https://github.com/jwoertink/fez/archive/v0.4.0.tar.gz"
