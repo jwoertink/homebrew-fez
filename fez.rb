@@ -7,6 +7,7 @@ class Fez < Formula
   revision 1
 
   def install
+    system "make"
     bin.install "fez"
   end
 end
