@@ -9,6 +9,6 @@ class Fez < Formula
 
   def install
     system "make"
-    bin.install "fez"
+    bin.install "bin/fez"
   end
 end
