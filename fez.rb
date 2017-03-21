@@ -8,7 +8,8 @@ class Fez < Formula
   depends_on "crystal-lang"
 
   def install
-    system "shards install && make"
+    system "shards", "install"
+    system "make"
     bin.install "bin/fez"
   end
 end
