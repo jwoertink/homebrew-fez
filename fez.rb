@@ -1,5 +1,5 @@
 class Fez < Formula
-  desc "fez is scaffold generator for Kemal and more"
+  desc "fez is scaffold generator for Kemal"
   homepage "http://github.com/jwoertink/fez"
   url "https://github.com/jwoertink/fez/archive/0.10.0.tar.gz"
   version "0.10.0"
@@ -8,7 +8,7 @@ class Fez < Formula
   depends_on "crystal-lang"
 
   def install
-    bin.install buildpath/"fez"
+    bin.install "fez"
   end
 
   test do
