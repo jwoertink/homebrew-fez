@@ -8,7 +8,8 @@ class Fez < Formula
   depends_on "crystal-lang"
 
   def install
-    bin.install "fez"
+    system "make"
+    bin.install Dir["bin/*"]
   end
 
   test do
